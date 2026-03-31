@@ -7,14 +7,14 @@ body {
   padding: 0;
 }
 
-/* ===== LOGO ===== */
+/* ===== proporção logo ===== */
 .logo {
   width: 200px;
   display: block;
   margin: 20px auto;
 }
 
-/* ===== PERFIL (HERO) ===== */
+/* ===== perfil ===== */
 #perfil {
   margin-bottom: 30px;
 }
@@ -70,7 +70,7 @@ body {
   color: #b3b3b3;
 }
 
-/* ===== BOTÕES ===== */
+/* ===== botões ===== */
 .buttons {
   display: flex;
   justify-content: center;
@@ -101,7 +101,7 @@ body {
   border: none;
 }
 
-/* ===== SEÇÕES ===== */
+/* ===== seções ===== */
 .section {
   display: none;
 }
@@ -110,12 +110,12 @@ body {
   display: flex;
 }
 
-/* ===== WRAPPER ===== */
+/* ===== wrapper ===== */
 .albums-wrapper {
   position: relative;
 }
 
-/* ===== CARROSSEL ===== */
+/* ===== carrossel ===== */
 #albums {
   display: flex;
   overflow-x: auto;
@@ -132,7 +132,7 @@ body {
   display: none;
 }
 
-/* ===== CARD ===== */
+/* ===== card ===== */
 .album {
   min-width: 200px;
   max-width: 200px;
@@ -150,7 +150,7 @@ body {
   transform: translateY(-6px) scale(1.03);
 }
 
-/* ===== IMAGEM ===== */
+/* ===== imagem ===== */
 .album img {
   width: 100%;
   aspect-ratio: 1 / 1;
@@ -159,7 +159,7 @@ body {
   margin-bottom: 10px;
 }
 
-/* ===== TEXTO ===== */
+/* ===== texto ===== */
 .album strong {
   display: block;
   font-size: 15px;
@@ -172,7 +172,7 @@ body {
   font-size: 13px;
 }
 
-/* ===== SETAS (ESTILO NETFLIX) ===== */
+/* ===== setas tipo da netflix ===== */
 .arrow {
   position: absolute;
   top: 50%;

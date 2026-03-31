@@ -44,7 +44,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
-  // ===== SETAS =====
+  // ===== as setas das seções =====
   arrowLeft.addEventListener("click", () => {
     albumsDiv.scrollBy({ left: -400, behavior: "smooth" });
   });
@@ -53,7 +53,7 @@ document.addEventListener("DOMContentLoaded", () => {
     albumsDiv.scrollBy({ left: 400, behavior: "smooth" });
   });
 
-  // ===== DRAG =====
+  // ===== scroll =====
   let isDown = false;
   let startX;
   let scrollLeft;
